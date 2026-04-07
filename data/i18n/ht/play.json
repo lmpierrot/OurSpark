@@ -1,0 +1,61 @@
+{
+  "header": {
+    "title": "Jwe",
+    "subtitle": "Jwèt ak fason amizan pou konekte ansanm."
+  },
+  "featured": {
+    "label": "Jwèt prensipal",
+    "title": "Defi konpatibilite",
+    "description": "Reponn ansanm epi konpare repons nou yo.",
+    "cta": "Jwe"
+  },
+  "compatibility": {
+    "title": "Konpatibilite",
+    "subtitle": "Gade kijan nou mache ansanm.",
+    "matchLabel": "Match",
+    "insightLabel": "Analiz",
+    "matchText": "{percent}% konpatibilite",
+    "insightText": "Nou dakò sou koneksyon emosyonèl",
+    "insightSub": "baze sou repons yo"
+  },
+  "categories": {
+    "title": "Kategori",
+    "subtitle": "Chwazi epi kòmanse jwe.",
+    "items": {
+      "wouldYouRather": {
+        "title": "Ou ta pito",
+        "description": "Chwazi ant de opsyon."
+      },
+      "compatibilityQuiz": {
+        "title": "Quiz konpatibilite",
+        "description": "Konpare repons yo."
+      },
+      "loveLanguage": {
+        "title": "Lang lanmou",
+        "description": "Dekouvri kijan nou santi nou renmen."
+      },
+      "truthOrDare": {
+        "title": "Verite oswa defi",
+        "description": "Jwèt amizan ak moman cho."
+      },
+      "neverHaveIEver": {
+        "title": "Mwen pa janm",
+        "description": "Kesyon ki revele anpil."
+      },
+      "mostLikelyTo": {
+        "title": "Ki moun ki plis chans",
+        "description": "Konpare repons yo."
+      }
+    }
+  },
+  "browse": {
+    "title": "Plis jwèt",
+    "subtitle": "Ri ansanm epi aprann plis youn sou lòt."
+  },
+  "explore": {
+    "label": "Ou vle plis pwofondè?",
+    "title": "Ale nan Ask",
+    "subtitle": "Soti nan jwèt ale nan konvèsasyon reyèl.",
+    "cta": "Ale nan Ask"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "greeting": {
+    "morning": "Good morning",
+    "afternoon": "Good afternoon",
+    "evening": "Good evening"
+  },
+  "relationshipGreetings": {
+    "gettingToKnow": "{greeting}, {firstName}",
+    "dating": "{greeting}, {firstName}",
+    "boyfriendGirlfriend": "{greeting}, love",
+    "engaged": "{greeting}, love",
+    "married": "{greeting}, love",
+    "longDistance": "{greeting}, {firstName}",
+    "rebuilding": "{greeting}, {firstName}",
+    "custom": "{greeting}, {firstName}"
+  },
+  "subtitle": {
+    "default": "Here’s something meaningful for your relationship today.",
+    "gettingToKnow": "Here’s something to help you learn more about each other.",
+    "dating": "Here’s something to keep your connection growing.",
+    "boyfriendGirlfriend": "Here’s something special for your relationship today.",
+    "engaged": "Here’s something to bring you closer as you build your future.",
+    "married": "Here’s something thoughtful for your shared journey today.",
+    "longDistance": "Here’s something to keep you close, wherever you are.",
+    "rebuilding": "Here’s something gentle for your journey back to each other.",
+    "custom": "Here’s something meaningful for your relationship today."
+  },
+  "sections": {
+    "todaysSpark": "Today's spark",
+    "dailyQuestion": {
+      "title": "Daily Question",
+      "subtitle": "Deepen your connection"
+    },
+    "playTogether": {
+      "title": "Play Together",
+      "subtitle": "Fun games for two"
+    },
+    "loveNotes": {
+      "title": "Love Notes",
+      "subtitle": "Send a sweet message"
+    },
+    "quote": {
+      "title": "Today’s Quote",
+      "subtitle": "A little reflection for the heart"
+    },
+    "widgets": {
+      "title": "Your Widgets",
+      "subtitle": "Quick access to what matters most"
+    }
+  },
+  "fallbacks": {
+    "sparkQuestion": "What's one thing your partner did this week that made you smile?"
+  }
+}

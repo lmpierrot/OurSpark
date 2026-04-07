@@ -1,0 +1,20 @@
+{
+  "title": "N ap prepare espas ou",
+  "subtitle": "Yon ti moman",
+  "phase1": "Alo",
+  "phase1Tail": "ban nou yon moman",
+  "phase2": "Konfigire",
+  "phase2Tail": "idantite ou",
+  "phase3": "Ajiste pou",
+  "phase3Fallback": "Nou ap li istwa renmen ou…",
+  "phase4": "Aplike",
+  "phase4Fallback": "N ap penti palèt ou…",
+  "phase5": "Lang",
+  "phase5En": "Konfigire Kreyòl",
+  "phase6": "N ap tise espas pataje ou…",
+  "phase7": "Prèske pare…",
+  "phase8": "etensèl ou prèt",
+  "mixLabel": "Melanj etensèl ou",
+  "done": "Pare ✦",
+  "preparing": "N ap prepare…"
+}

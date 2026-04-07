@@ -1,0 +1,31 @@
+{
+  "header": {
+    "title": "Chat",
+    "partnerStatus": "{partnerName} • en ligne"
+  },
+  "actions": {
+    "notifications": "Notifications",
+    "callPartner": "Appeler le partenaire",
+    "openActionsMenu": "Ouvrir le menu d’actions",
+    "closeActionsMenu": "Fermer le menu d’actions",
+    "sendMessage": "Envoyer le message"
+  },
+  "loveNote": {
+    "label": "Mot doux",
+    "description": "Envoyez quelque chose de tendre, doux et inattendu.",
+    "cta": "Envoyer"
+  },
+  "privacy": {
+    "note": "Votre espace de chat partagé est privé et conçu juste pour vous deux."
+  },
+  "messages": {
+    "today": "Aujourd’hui",
+    "placeholder": "Envoyer un message..."
+  },
+  "menu": {
+    "loveNote": "Mot doux",
+    "voiceMessage": "Message vocal",
+    "image": "Image",
+    "datePlan": "Plan de rendez-vous"
+  }
+}

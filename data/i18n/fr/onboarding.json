@@ -1,0 +1,72 @@
+{
+  "intro": {
+    "slide1": {
+      "title": "Un espace partagé pour votre relation",
+      "description": "OurSparks aide les couples à se sentir plus proches grâce à la connexion, l’attention et les moments partagés."
+    },
+    "slide2": {
+      "title": "Parlez, jouez, discutez et grandissez ensemble",
+      "description": "Découvrez des questions réfléchies, des jeux amusants, un chat privé, des objectifs, des souvenirs et plus encore."
+    },
+    "slide3": {
+      "title": "Adapté à votre relation",
+      "description": "Votre expérience peut s’adapter à votre étape, votre langue et à ce qui compte le plus pour vous deux."
+    },
+    "getStarted": "Commencer"
+  },
+  "profile": {
+    "title": "Parlez-nous de vous",
+    "subtitle": "Commencez par votre prénom.",
+    "firstNameLabel": "Prénom",
+    "firstNamePlaceholder": "Alex"
+  },
+  "relationshipStage": {
+    "title": "Où en êtes-vous dans votre relation ?",
+    "subtitle": "Nous utiliserons cela pour personnaliser votre expérience.",
+    "options": {
+      "gettingToKnow": {
+        "title": "Apprendre à se connaître",
+        "description": "Premières conversations, découverte et curiosité."
+      },
+      "dating": {
+        "title": "En couple",
+        "description": "Construire une connexion et des expériences partagées."
+      },
+      "boyfriendGirlfriend": {
+        "title": "Petit ami & petite amie",
+        "description": "Une relation engagée avec des liens plus profonds."
+      },
+      "engaged": {
+        "title": "Fiancés",
+        "description": "Construire un avenir et grandir ensemble."
+      },
+      "married": {
+        "title": "Mariés",
+        "description": "Mariage, travail d’équipe, intimité et croissance à long terme."
+      },
+      "longDistance": {
+        "title": "À distance",
+        "description": "Connexion malgré la distance, visites et proximité virtuelle."
+      },
+      "rebuilding": {
+        "title": "Reconstruire / raviver",
+        "description": "Guérir, se reconnecter et retrouver l’intimité."
+      },
+      "custom": {
+        "title": "Personnalisé",
+        "description": "Définissez votre relation à votre façon."
+      }
+    }
+  },
+  "partner": {
+    "title": "Invitez votre partenaire",
+    "subtitle": "Partagez ce code pour connecter vos comptes.",
+    "inviteCodeLabel": "Code d’invitation",
+    "copyCodeButton": "Copier le code",
+    "skipTitle": "Vous pouvez passer cette étape pour le moment",
+    "skipDescription": "Votre partenaire pourra rejoindre plus tard avec ce même code.",
+    "continueToApp": "Continuer vers l’application",
+    "codeCopied": "Code d’invitation copié !",
+    "codeCopyError": "Impossible de copier le code."
+  }
+}

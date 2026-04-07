@@ -1,0 +1,20 @@
+{
+  "title": "Crafting your space",
+  "subtitle": "Just a moment",
+  "phase1": "Hey",
+  "phase1Tail": "give us a moment",
+  "phase2": "Setting",
+  "phase2Tail": "your identity",
+  "phase3": "Tuning for",
+  "phase3Fallback": "Reading your love story…",
+  "phase4": "Applying",
+  "phase4Fallback": "Painting your palette…",
+  "phase5": "Language",
+  "phase5En": "Setting up English",
+  "phase6": "Weaving your shared space…",
+  "phase7": "Almost there…",
+  "phase8": "your spark is ready",
+  "mixLabel": "Your spark mix",
+  "done": "Ready ✦",
+  "preparing": "Preparing…"
+}

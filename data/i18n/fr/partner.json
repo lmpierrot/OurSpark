@@ -1,0 +1,19 @@
+{
+  "partner.title": "Connectez-vous avec votre partenaire",
+  "partner.subtitle": "Partagez votre code ou entrez le leur",
+  "partner.shareTab": "Partager mon code",
+  "partner.joinTab": "J'ai un code",
+  "partner.inviteCodeLabel": "Votre code d'invitation",
+  "partner.codeExpiry": "Ce code expire dans 48 heures",
+  "partner.sendToPartner": "Envoyer à mon partenaire",
+  "partner.inviteLater": "Je les inviterai plus tard",
+  "partner.continueCta": "Accéder à mon espace",
+  "partner.partnerCodeLabel": "Code du partenaire",
+  "partner.partnerCodePlaceholder": "SPARK-XXXXXX",
+  "partner.joinCta": "Continuer",
+  "partner.copyCode": "Copier le code",
+  "partner.copied": "Copié !",
+  "partner.shareMessageTitle": "Rejoins-moi sur OurSparks",
+  "partner.shareMessageBody": "Utilise mon code pour te connecter :",
+  "partner.joinHint": "Entrez le code que votre partenaire a partagé avec vous pour connecter vos espaces."
+}

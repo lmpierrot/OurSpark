@@ -1,0 +1,20 @@
+{
+  "title": "Préparons votre espace",
+  "subtitle": "Un instant",
+  "phase1": "Bonjour",
+  "phase1Tail": "donnez-nous un moment",
+  "phase2": "Définir",
+  "phase2Tail": "votre identité",
+  "phase3": "Adaptation pour",
+  "phase3Fallback": "Lecture de votre histoire d'amour…",
+  "phase4": "Application de",
+  "phase4Fallback": "Peinture de votre palette…",
+  "phase5": "Langue",
+  "phase5En": "Configuration du français",
+  "phase6": "Tissage de votre espace partagé…",
+  "phase7": "Presque là…",
+  "phase8": "votre étincelle est prête",
+  "mixLabel": "Votre mélange d'étincelles",
+  "done": "Prêt ✦",
+  "preparing": "Préparation…"
+}

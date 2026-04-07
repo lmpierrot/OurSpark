@@ -1,0 +1,82 @@
+{
+  "header": {
+    "title": "More",
+    "subtitle": "Explore more ways to grow, customize, and enjoy your relationship space."
+  },
+
+  "featured": {
+    "title": "Make the app feel like yours",
+    "description": "Personalize your relationship journey with goals, memories, journals, planners, and more."
+  },
+
+  "sections": {
+    "relationshipTools": "Relationship Tools",
+    "appSettings": "App & Settings"
+  },
+
+  "relationshipTools": {
+    "profile": {
+      "title": "Profile",
+      "subtitle": "Your relationship identity and shared info"
+    },
+    "goals": {
+      "title": "Goals",
+      "subtitle": "Track milestones and shared intentions"
+    },
+    "memory": {
+      "title": "Memory",
+      "subtitle": "Photos, notes, places, and special moments"
+    },
+    "moodTracker": {
+      "title": "Mood Tracker",
+      "subtitle": "Check in with how you both feel"
+    },
+    "loveLanguage": {
+      "title": "Love Language",
+      "subtitle": "Explore how you each give and receive love"
+    },
+    "countdown": {
+      "title": "Countdown",
+      "subtitle": "Track anniversaries, trips, and important dates"
+    },
+    "bucketList": {
+      "title": "Bucket List",
+      "subtitle": "Dream up things to do together"
+    },
+    "challenges": {
+      "title": "Challenges",
+      "subtitle": "Fun relationship missions and growth prompts"
+    },
+    "gratitudeJournal": {
+      "title": "Gratitude Journal",
+      "subtitle": "Capture appreciation and meaningful moments"
+    },
+    "datePlanner": {
+      "title": "Date Planner",
+      "subtitle": "Plan meaningful time together"
+    }
+  },
+
+  "appSettings": {
+    "notifications": {
+      "title": "Notifications",
+      "subtitle": "Manage reminders and updates"
+    },
+    "premium": {
+      "title": "Premium",
+      "subtitle": "Unlock more ways to personalize your experience"
+    },
+    "language": {
+      "title": "Language",
+      "subtitle": "Choose how the app speaks to you"
+    },
+    "theme": {
+      "title": "Theme & Style",
+      "subtitle": "Customize your experience"
+    },
+    "settings": {
+      "title": "Settings",
+      "subtitle": "Privacy, account, and app preferences"
+    }
+  }
+}

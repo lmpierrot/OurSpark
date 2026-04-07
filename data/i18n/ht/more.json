@@ -1,0 +1,33 @@
+{
+  "header": {
+    "title": "Plis",
+    "subtitle": "Dekouvri plis fason pou devlope relasyon nou."
+  },
+  "featured": {
+    "title": "Fè app la pou ou",
+    "description": "Ajoute objektif, souvni, ak plis ankò."
+  },
+  "sections": {
+    "relationshipTools": "Zouti relasyon",
+    "appSettings": "Paramèt"
+  },
+  "relationshipTools": {
+    "profile": { "title": "Pwofil", "subtitle": "Idantite relasyon nou" },
+    "goals": { "title": "Objektif", "subtitle": "Swiv pwogrè nou" },
+    "memory": { "title": "Souvni", "subtitle": "Momant espesyal" },
+    "moodTracker": { "title": "Atitid", "subtitle": "Kijan nou santi nou" },
+    "loveLanguage": { "title": "Lang lanmou", "subtitle": "Kijan nou renmen" },
+    "countdown": { "title": "Konte desann", "subtitle": "Dat enpòtan" },
+    "bucketList": { "title": "Lis rèv", "subtitle": "Bagay pou fè ansanm" },
+    "challenges": { "title": "Defi", "subtitle": "Jwèt ak misyon" },
+    "gratitudeJournal": { "title": "Jounal rekonesans", "subtitle": "Momant pozitif" },
+    "datePlanner": { "title": "Planifikatè", "subtitle": "Planifye moman ansanm" }
+  },
+  "appSettings": {
+    "notifications": { "title": "Notifikasyon", "subtitle": "Jere alèt" },
+    "premium": { "title": "Premium", "subtitle": "Plis opsyon" },
+    "language": { "title": "Lang", "subtitle": "Chwazi lang" },
+    "theme": { "title": "Tèm", "subtitle": "Customize style" },
+    "settings": { "title": "Paramèt", "subtitle": "Kont ak sekirite" }
+  }
+}

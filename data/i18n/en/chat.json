@@ -1,0 +1,31 @@
+{
+  "header": {
+    "title": "Chat",
+    "partnerStatus": "{partnerName} • online now"
+  },
+  "actions": {
+    "notifications": "Notifications",
+    "callPartner": "Call partner",
+    "openActionsMenu": "Open actions menu",
+    "closeActionsMenu": "Close actions menu",
+    "sendMessage": "Send message"
+  },
+  "loveNote": {
+    "label": "Love Note",
+    "description": "Send something sweet, soft, and unexpected.",
+    "cta": "Send"
+  },
+  "privacy": {
+    "note": "Your shared chat space is private and built just for two."
+  },
+  "messages": {
+    "today": "Today",
+    "placeholder": "Send a message..."
+  },
+  "menu": {
+    "loveNote": "Love Note",
+    "voiceMessage": "Voice Message",
+    "image": "Image",
+    "datePlan": "Date Plan"
+  }
+}

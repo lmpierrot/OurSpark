@@ -1,0 +1,90 @@
+{
+  "header": {
+    "title": "Ask",
+    "subtitle": "Explore questions, topics, and deeper conversations together."
+  },
+
+  "tabs": {
+    "all": "All",
+    "yourTurn": "Your Turn",
+    "answered": "Answered",
+    "completed": "Completed"
+  },
+
+  "daily": {
+    "label": "Free Daily Conversation",
+    "defaultQuestion": "What is something you want us to improve together this month?",
+    "cta": "Answer"
+  },
+
+  "categories": {
+    "title": "Categories",
+    "subtitle": "Pick a vibe and start talking.",
+    "items": {
+      "fun": {
+        "title": "Fun",
+        "description": "Playful questions to make each other smile."
+      },
+      "deep": {
+        "title": "Deep",
+        "description": "Meaningful questions for real connection."
+      },
+      "romantic": {
+        "title": "Romantic",
+        "description": "Questions about love, care, and closeness."
+      },
+      "spicy": {
+        "title": "Spicy",
+        "description": "Flirty and intimate conversations."
+      },
+      "future": {
+        "title": "Future",
+        "description": "Dreams, plans, and what comes next."
+      },
+      "movingIn": {
+        "title": "Moving In",
+        "description": "Living together, routines, and shared space."
+      }
+    }
+  },
+
+  "folders": {
+    "title": "Folders",
+    "subtitle": "Explore advanced topics and guided conversation packs.",
+    "progressComplete": "{percent}% complete",
+    "items": {
+      "starters": {
+        "title": "Starters",
+        "subtitle": "Easy openers"
+      },
+      "relationship": {
+        "title": "Relationship",
+        "subtitle": "Values and connection"
+      },
+      "sexAndLove": {
+        "title": "Sex & Love",
+        "subtitle": "Intimacy and attraction"
+      },
+      "money": {
+        "title": "Money & Finances",
+        "subtitle": "Goals, habits, and spending"
+      },
+      "travel": {
+        "title": "Travel",
+        "subtitle": "Trips, dreams, and adventure"
+      },
+      "family": {
+        "title": "Family",
+        "subtitle": "Boundaries, traditions, and future plans"
+      }
+    }
+  },
+
+  "explore": {
+    "title": "Explore More",
+    "subtitle": "Browse topic packs made for every stage of your relationship.",
+    "ctaLabel": "Switch it up",
+    "ctaTitle": "Try a couple game instead",
+    "ctaButton": "Go to Play"
+  }
+}

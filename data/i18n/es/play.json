@@ -1,0 +1,61 @@
+{
+  "header": {
+    "title": "Jugar",
+    "subtitle": "Juegos y formas divertidas de conectar."
+  },
+  "featured": {
+    "label": "Juego destacado",
+    "title": "Desafío de compatibilidad",
+    "description": "Respondan juntos y comparen sus respuestas.",
+    "cta": "Jugar"
+  },
+  "compatibility": {
+    "title": "Compatibilidad",
+    "subtitle": "Vean qué tan alineados están.",
+    "matchLabel": "Compatibilidad",
+    "insightLabel": "Insight",
+    "matchText": "{percent}% compatibilidad",
+    "insightText": "Coinciden en conexión emocional",
+    "insightSub": "basado en respuestas recientes"
+  },
+  "categories": {
+    "title": "Categorías",
+    "subtitle": "Elige y empieza a jugar.",
+    "items": {
+      "wouldYouRather": {
+        "title": "¿Qué prefieres?",
+        "description": "Elige entre dos opciones."
+      },
+      "compatibilityQuiz": {
+        "title": "Quiz de compatibilidad",
+        "description": "Comparen respuestas."
+      },
+      "loveLanguage": {
+        "title": "Lenguaje del amor",
+        "description": "Descubran cómo se sienten amados."
+      },
+      "truthOrDare": {
+        "title": "Verdad o reto",
+        "description": "Diversión y momentos atrevidos."
+      },
+      "neverHaveIEver": {
+        "title": "Nunca he",
+        "description": "Preguntas reveladoras."
+      },
+      "mostLikelyTo": {
+        "title": "Quién es más probable",
+        "description": "Comparen respuestas."
+      }
+    }
+  },
+  "browse": {
+    "title": "Más juegos",
+    "subtitle": "Rían y aprendan juntos."
+  },
+  "explore": {
+    "label": "¿Quieres algo más profundo?",
+    "title": "Explora Ask",
+    "subtitle": "Pasa de juegos a conversaciones reales.",
+    "cta": "Ir a Ask"
+  }
+}

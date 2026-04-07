@@ -1,0 +1,83 @@
+{
+  "header": {
+    "title": "Play",
+    "subtitle": "Games, quizzes, and playful ways to connect together."
+  },
+
+  "featured": {
+    "label": "Featured Game",
+    "title": "Couples Compatibility Challenge",
+    "description": "Answer together, compare your choices, and see how strong your match feels.",
+    "cta": "Play"
+  },
+
+  "compatibility": {
+    "title": "Compatibility",
+    "subtitle": "See how well your answers match and where you differ.",
+    "matchLabel": "Match",
+    "insightLabel": "Insight",
+    "matchText": "{percent}% overall compatibility",
+    "insightText": "You agree most on emotional connection",
+    "insightSub": "based on recent answers"
+  },
+
+  "categories": {
+    "title": "Game Categories",
+    "subtitle": "Choose a style and start playing.",
+    "items": {
+      "wouldYouRather": {
+        "title": "Would You Rather",
+        "description": "Pick between two fun or tricky options."
+      },
+      "compatibilityQuiz": {
+        "title": "Compatibility Quiz",
+        "description": "Compare your answers and see how aligned you are."
+      },
+      "loveLanguage": {
+        "title": "Love Language Quiz",
+        "description": "Discover how you both feel most loved."
+      },
+      "truthOrDare": {
+        "title": "Truth or Dare",
+        "description": "Playful prompts, bold moments, and flirty fun."
+      },
+      "neverHaveIEver": {
+        "title": "Never Have I Ever",
+        "description": "Funny and revealing questions for couples."
+      },
+      "mostLikelyTo": {
+        "title": "Who’s More Likely To",
+        "description": "Find out who fits the prompt better."
+      }
+    }
+  },
+
+  "browse": {
+    "title": "Browse More Games",
+    "subtitle": "Quick ways to laugh, compare, and learn about each other.",
+    "items": {
+      "thisOrThat": {
+        "title": "This or That",
+        "subtitle": "60 choices with images",
+        "vibe": "Fast, fun, and easy to compare"
+      },
+      "finishSentence": {
+        "title": "Finish My Sentence",
+        "subtitle": "50 playful prompts",
+        "vibe": "Cute, emotional, and revealing"
+      },
+      "loveTrivia": {
+        "title": "Love Trivia",
+        "subtitle": "100 Q&A",
+        "vibe": "Test what you know about each other"
+      }
+    }
+  },
+
+  "explore": {
+    "label": "Want something deeper?",
+    "title": "Explore the Ask section",
+    "subtitle": "Move from games into real conversations.",
+    "cta": "Go to Ask"
+  }
+}

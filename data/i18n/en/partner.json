@@ -1,0 +1,19 @@
+{
+  "partner.title": "Connect with your partner",
+  "partner.subtitle": "Share your code or enter theirs",
+  "partner.shareTab": "Share my code",
+  "partner.joinTab": "I have a code",
+  "partner.inviteCodeLabel": "Your invite code",
+  "partner.codeExpiry": "This code expires in 48 hours",
+  "partner.sendToPartner": "Send to my partner",
+  "partner.inviteLater": "I'll invite them later",
+  "partner.continueCta": "Go to my space",
+  "partner.partnerCodeLabel": "Partner's code",
+  "partner.partnerCodePlaceholder": "SPARK-XXXXXX",
+  "partner.joinCta": "Continue",
+  "partner.copyCode": "Copy code",
+  "partner.copied": "Copied!",
+  "partner.shareMessageTitle": "Join me on OurSparks",
+  "partner.shareMessageBody": "Use my code to connect:",
+  "partner.joinHint": "Enter the code your partner shared with you to connect your spaces."
+}

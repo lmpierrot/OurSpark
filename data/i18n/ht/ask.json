@@ -1,0 +1,59 @@
+{
+  "header": {
+    "title": "Poze",
+    "subtitle": "Eksplore kestyon ak konvèsasyon pi pwofon ansanm."
+  },
+  "tabs": {
+    "all": "Tout",
+    "yourTurn": "Tou pa ou",
+    "answered": "Reponn",
+    "completed": "Fini"
+  },
+  "daily": {
+    "label": "Konvèsasyon chak jou",
+    "defaultQuestion": "Ki yon bagay nou ta dwe amelyore ansanm mwa sa a?",
+    "cta": "Reponn"
+  },
+  "categories": {
+    "title": "Kategori",
+    "subtitle": "Chwazi yon stil epi kòmanse pale.",
+    "items": {
+      "fun": {
+        "title": "Amizan",
+        "description": "Kestyon pou fè nou ri ansanm."
+      },
+      "deep": {
+        "title": "Pwofon",
+        "description": "Kestyon ki bay vrè koneksyon."
+      },
+      "romantic": {
+        "title": "Amoure",
+        "description": "Kestyon sou lanmou ak pwoksimite."
+      },
+      "spicy": {
+        "title": "Cho",
+        "description": "Konvèsasyon flirty ak entim."
+      },
+      "future": {
+        "title": "Lavni",
+        "description": "Rèv, plan, ak sa kap vini."
+      },
+      "movingIn": {
+        "title": "Viv ansanm",
+        "description": "Routin ak espas pataje."
+      }
+    }
+  },
+  "folders": {
+    "title": "Dosye",
+    "subtitle": "Eksplore sijè ak konvèsasyon.",
+    "progressComplete": "{percent}% fini"
+  },
+  "explore": {
+    "title": "Eksplore plis",
+    "subtitle": "Dekouvri sijè pou chak etap relasyon an.",
+    "ctaLabel": "Chanje",
+    "ctaTitle": "Eseye yon jwèt ansanm",
+    "ctaButton": "Ale jwe"
+  }
+}

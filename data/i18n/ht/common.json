@@ -1,0 +1,17 @@
+{
+  "buttons": {
+    "continue": "Kontinye",
+    "back": "Retounen",
+    "save": "Sove",
+    "cancel": "Anile"
+  },
+  "nav": {
+    "settings": "Paramèt",
+    "profile": "Pwofil",
+    "theme": "Tèm",
+    "language": "Lang",
+    "app": {
+      "name": "OurSparks"
+    }
+  }
+}

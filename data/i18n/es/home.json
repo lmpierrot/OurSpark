@@ -1,0 +1,54 @@
+{
+  "greeting": {
+    "morning": "Buenos días",
+    "afternoon": "Buenas tardes",
+    "evening": "Buenas noches"
+  },
+  "relationshipGreetings": {
+    "gettingToKnow": "{greeting}, {firstName}",
+    "dating": "{greeting}, {firstName}",
+    "boyfriendGirlfriend": "{greeting}, amor",
+    "engaged": "{greeting}, amor",
+    "married": "{greeting}, amor",
+    "longDistance": "{greeting}, {firstName}",
+    "rebuilding": "{greeting}, {firstName}",
+    "custom": "{greeting}, {firstName}"
+  },
+  "subtitle": {
+    "default": "Aquí tienes algo significativo para tu relación hoy.",
+    "gettingToKnow": "Aquí tienes algo para ayudarlos a conocerse mejor.",
+    "dating": "Aquí tienes algo para seguir fortaleciendo su conexión.",
+    "boyfriendGirlfriend": "Aquí tienes algo especial para su relación hoy.",
+    "engaged": "Aquí tienes algo para acercarlos más mientras construyen su futuro.",
+    "married": "Aquí tienes algo pensado para su camino compartido hoy.",
+    "longDistance": "Aquí tienes algo para mantenerlos cerca, estén donde estén.",
+    "rebuilding": "Aquí tienes algo suave para su camino de reconexión.",
+    "custom": "Aquí tienes algo significativo para tu relación hoy."
+  },
+  "sections": {
+    "todaysSpark": "La chispa de hoy",
+    "dailyQuestion": {
+      "title": "Pregunta del día",
+      "subtitle": "Profundiza su conexión"
+    },
+    "playTogether": {
+      "title": "Jueguen juntos",
+      "subtitle": "Juegos divertidos para dos"
+    },
+    "loveNotes": {
+      "title": "Notas de amor",
+      "subtitle": "Envía un mensaje dulce"
+    },
+    "quote": {
+      "title": "Frase del día",
+      "subtitle": "Una pequeña reflexión para el corazón"
+    },
+    "widgets": {
+      "title": "Tus widgets",
+      "subtitle": "Acceso rápido a lo que más importa"
+    }
+  },
+  "fallbacks": {
+    "sparkQuestion": "¿Qué hizo tu pareja esta semana que te hizo sonreír?"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "header": {
+    "title": "Discuter",
+    "subtitle": "Explorez des questions et des conversations plus profondes ensemble."
+  },
+  "tabs": {
+    "all": "Tout",
+    "yourTurn": "À toi",
+    "answered": "Répondu",
+    "completed": "Terminé"
+  },
+  "daily": {
+    "label": "Conversation quotidienne",
+    "defaultQuestion": "Quelle est une chose que nous devrions améliorer ensemble ce mois-ci ?",
+    "cta": "Répondre"
+  },
+  "categories": {
+    "title": "Catégories",
+    "subtitle": "Choisissez une ambiance et commencez à discuter.",
+    "items": {
+      "fun": {
+        "title": "Fun",
+        "description": "Des questions amusantes pour vous faire sourire."
+      },
+      "deep": {
+        "title": "Profond",
+        "description": "Des questions significatives pour une vraie connexion."
+      },
+      "romantic": {
+        "title": "Romantique",
+        "description": "Des questions sur l’amour et la proximité."
+      },
+      "spicy": {
+        "title": "Audacieux",
+        "description": "Des conversations flirty et intimes."
+      },
+      "future": {
+        "title": "Futur",
+        "description": "Rêves, projets et avenir."
+      },
+      "movingIn": {
+        "title": "Vie commune",
+        "description": "Vivre ensemble et partager son espace."
+      }
+    }
+  },
+  "folders": {
+    "title": "Dossiers",
+    "subtitle": "Explorez des thèmes et des packs de conversations.",
+    "progressComplete": "{percent}% complété"
+  },
+  "explore": {
+    "title": "Explorer plus",
+    "subtitle": "Découvrez des thèmes pour chaque étape de votre relation.",
+    "ctaLabel": "Changer",
+    "ctaTitle": "Essayez un jeu en couple",
+    "ctaButton": "Aller jouer"
+  }
+}

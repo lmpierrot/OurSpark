@@ -1,0 +1,72 @@
+{
+  "intro": {
+    "slide1": {
+      "title": "Yon espas pataje pou relasyon nou",
+      "description": "OurSparks ede koup yo santi yo pi pwòch atravè koneksyon, swen, ak moman yo pataje ansanm."
+    },
+    "slide2": {
+      "title": "Poze kestyon, jwe, pale, epi grandi ansanm",
+      "description": "Eksplore kestyon ki fè reflechi, jwèt amizan, chat prive, objektif, souvni, ak plis ankò."
+    },
+    "slide3": {
+      "title": "Adapte ak relasyon nou",
+      "description": "Eksperyans nou an ka adapte ak etap relasyon nou, lang nou, ak sa ki pi enpòtan pou nou toude."
+    },
+    "getStarted": "Kòmanse"
+  },
+  "profile": {
+    "title": "Di nou kiyès ou ye",
+    "subtitle": "Kòmanse ak premye non ou.",
+    "firstNameLabel": "Premye non",
+    "firstNamePlaceholder": "Alex"
+  },
+  "relationshipStage": {
+    "title": "Ki etap relasyon nou ye kounye a?",
+    "subtitle": "N ap itilize sa pou pèsonalize eksperyans nou.",
+    "options": {
+      "gettingToKnow": {
+        "title": "Ap konnen youn lòt",
+        "description": "Premye konvèsasyon, dekouvèt, ak kiryozite."
+      },
+      "dating": {
+        "title": "Nan relasyon",
+        "description": "Ap konstwi koneksyon ak eksperyans ansanm."
+      },
+      "boyfriendGirlfriend": {
+        "title": "Mennaj",
+        "description": "Yon relasyon angaje ak yon lyen ki pi pwofon."
+      },
+      "engaged": {
+        "title": "Fiyanse",
+        "description": "Ap planifye lavni epi grandi ansanm."
+      },
+      "married": {
+        "title": "Marye",
+        "description": "Maryaj, travay ansanm, entimite, ak kwasans sou lontan."
+      },
+      "longDistance": {
+        "title": "Relasyon a distans",
+        "description": "Koneksyon malgre distans, vizit, ak pwoksimite vityèl."
+      },
+      "rebuilding": {
+        "title": "Rebati / relimen",
+        "description": "Geri, rekonekte, epi rebati entimite."
+      },
+      "custom": {
+        "title": "Pèsonalize",
+        "description": "Defini relasyon nou jan nou vle."
+      }
+    }
+  },
+  "partner": {
+    "title": "Envite patnè ou",
+    "subtitle": "Pataje kòd sa a pou konekte kont nou yo.",
+    "inviteCodeLabel": "Kòd envitasyon",
+    "copyCodeButton": "Kopye kòd la",
+    "skipTitle": "Ou ka sote sa pou kounye a",
+    "skipDescription": "Patnè ou ka rantre pita ak menm kòd sa a.",
+    "continueToApp": "Kontinye nan app la",
+    "codeCopied": "Kòd envitasyon an kopye!",
+    "codeCopyError": "Pa t ka kopye kòd la."
+  }
+}

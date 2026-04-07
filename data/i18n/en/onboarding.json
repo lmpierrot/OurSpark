@@ -1,0 +1,72 @@
+{
+  "intro": {
+    "slide1": {
+      "title": "A shared space for your relationship",
+      "description": "OurSparks helps couples feel closer through connection, care, and shared moments."
+    },
+    "slide2": {
+      "title": "Ask, play, chat, and grow together",
+      "description": "Explore thoughtful questions, playful games, private chat, goals, memories, and more."
+    },
+    "slide3": {
+      "title": "Tailored to your relationship",
+      "description": "Your experience can adapt to your stage, your language, and what matters most to both of you."
+    },
+    "getStarted": "Get Started"
+  },
+  "profile": {
+    "title": "Tell us about you",
+    "subtitle": "Start with your first name.",
+    "firstNameLabel": "First Name",
+    "firstNamePlaceholder": "Alex"
+  },
+  "relationshipStage": {
+    "title": "Where are you in your relationship?",
+    "subtitle": "We’ll use this to personalize your experience.",
+    "options": {
+      "gettingToKnow": {
+        "title": "Getting to know each other",
+        "description": "Early conversations, discovery, and curiosity."
+      },
+      "dating": {
+        "title": "Dating",
+        "description": "Building connection and shared experiences."
+      },
+      "boyfriendGirlfriend": {
+        "title": "Boyfriend & girlfriend",
+        "description": "A committed relationship with deeper bonding."
+      },
+      "engaged": {
+        "title": "Engaged",
+        "description": "Planning a future and growing together."
+      },
+      "married": {
+        "title": "Married",
+        "description": "Marriage, teamwork, intimacy, and long-term growth."
+      },
+      "longDistance": {
+        "title": "Long distance",
+        "description": "Connection across distance, visits, and virtual closeness."
+      },
+      "rebuilding": {
+        "title": "Rebuilding / reigniting",
+        "description": "Healing, reconnecting, and restoring intimacy."
+      },
+      "custom": {
+        "title": "Custom",
+        "description": "Define your relationship your own way."
+      }
+    }
+  },
+  "partner": {
+    "title": "Invite your partner",
+    "subtitle": "Share this code so you can connect your accounts.",
+    "inviteCodeLabel": "Invite Code",
+    "copyCodeButton": "Copy Code",
+    "skipTitle": "You can skip this for now",
+    "skipDescription": "Your partner can join later using this same code.",
+    "continueToApp": "Continue to App",
+    "codeCopied": "Invite code copied!",
+    "codeCopyError": "Could not copy code."
+  }
+}

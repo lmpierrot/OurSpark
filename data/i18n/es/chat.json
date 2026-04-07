@@ -1,0 +1,31 @@
+{
+  "header": {
+    "title": "Chat",
+    "partnerStatus": "{partnerName} • en línea"
+  },
+  "actions": {
+    "notifications": "Notificaciones",
+    "callPartner": "Llamar a tu pareja",
+    "openActionsMenu": "Abrir menú de acciones",
+    "closeActionsMenu": "Cerrar menú de acciones",
+    "sendMessage": "Enviar mensaje"
+  },
+  "loveNote": {
+    "label": "Nota de amor",
+    "description": "Envía algo dulce, suave e inesperado.",
+    "cta": "Enviar"
+  },
+  "privacy": {
+    "note": "Tu espacio de chat compartido es privado y está hecho solo para ustedes dos."
+  },
+  "messages": {
+    "today": "Hoy",
+    "placeholder": "Envía un mensaje..."
+  },
+  "menu": {
+    "loveNote": "Nota de amor",
+    "voiceMessage": "Mensaje de voz",
+    "image": "Imagen",
+    "datePlan": "Plan de cita"
+  }
+}

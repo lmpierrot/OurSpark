@@ -1,0 +1,54 @@
+{
+  "greeting": {
+    "morning": "Bonjour",
+    "afternoon": "Bon après-midi",
+    "evening": "Bonsoir"
+  },
+  "relationshipGreetings": {
+    "gettingToKnow": "{greeting}, {firstName}",
+    "dating": "{greeting}, {firstName}",
+    "boyfriendGirlfriend": "{greeting}, mon amour",
+    "engaged": "{greeting}, mon amour",
+    "married": "{greeting}, mon amour",
+    "longDistance": "{greeting}, {firstName}",
+    "rebuilding": "{greeting}, {firstName}",
+    "custom": "{greeting}, {firstName}"
+  },
+  "subtitle": {
+    "default": "Voici quelque chose de précieux pour votre relation aujourd’hui.",
+    "gettingToKnow": "Voici quelque chose pour vous aider à mieux vous découvrir.",
+    "dating": "Voici quelque chose pour faire grandir votre connexion.",
+    "boyfriendGirlfriend": "Voici quelque chose de spécial pour votre relation aujourd’hui.",
+    "engaged": "Voici quelque chose pour vous rapprocher pendant que vous construisez votre avenir.",
+    "married": "Voici quelque chose de réfléchi pour votre parcours commun aujourd’hui.",
+    "longDistance": "Voici quelque chose pour vous garder proches, même à distance.",
+    "rebuilding": "Voici quelque chose de doux pour votre chemin de reconnexion.",
+    "custom": "Voici quelque chose de précieux pour votre relation aujourd’hui."
+  },
+  "sections": {
+    "todaysSpark": "L’étincelle du jour",
+    "dailyQuestion": {
+      "title": "Question du jour",
+      "subtitle": "Approfondissez votre connexion"
+    },
+    "playTogether": {
+      "title": "Jouer ensemble",
+      "subtitle": "Des jeux amusants à deux"
+    },
+    "loveNotes": {
+      "title": "Mots doux",
+      "subtitle": "Envoyez un message tendre"
+    },
+    "quote": {
+      "title": "Citation du jour",
+      "subtitle": "Une petite réflexion pour le cœur"
+    },
+    "widgets": {
+      "title": "Vos widgets",
+      "subtitle": "Accès rapide à ce qui compte le plus"
+    }
+  },
+  "fallbacks": {
+    "sparkQuestion": "Quelle est une chose que votre partenaire a faite cette semaine qui vous a fait sourire ?"
+  }
+}

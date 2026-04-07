@@ -1,0 +1,54 @@
+{
+  "greeting": {
+    "morning": "Bon maten",
+    "afternoon": "Bon apremidi",
+    "evening": "Bon swa"
+  },
+  "relationshipGreetings": {
+    "gettingToKnow": "{greeting}, {firstName}",
+    "dating": "{greeting}, {firstName}",
+    "boyfriendGirlfriend": "{greeting}, lanmou",
+    "engaged": "{greeting}, lanmou",
+    "married": "{greeting}, lanmou",
+    "longDistance": "{greeting}, {firstName}",
+    "rebuilding": "{greeting}, {firstName}",
+    "custom": "{greeting}, {firstName}"
+  },
+  "subtitle": {
+    "default": "Men yon bagay ki gen sans pou relasyon nou jodi a.",
+    "gettingToKnow": "Men yon bagay pou ede nou konnen youn lòt pi byen.",
+    "dating": "Men yon bagay pou fè koneksyon nou grandi.",
+    "boyfriendGirlfriend": "Men yon bagay espesyal pou relasyon nou jodi a.",
+    "engaged": "Men yon bagay pou pwoche nou pi pre pandan n ap konstwi lavni nou.",
+    "married": "Men yon bagay reflechi pou chemen n ap mache ansanm jodi a.",
+    "longDistance": "Men yon bagay pou kenbe nou pwòch, kèlkeswa kote nou ye.",
+    "rebuilding": "Men yon bagay dous pou ede nou rekonekte ankò.",
+    "custom": "Men yon bagay ki gen sans pou relasyon nou jodi a."
+  },
+  "sections": {
+    "todaysSpark": "Etensèl jodi a",
+    "dailyQuestion": {
+      "title": "Kesyon jodi a",
+      "subtitle": "Fè koneksyon nou vin pi pwofon"
+    },
+    "playTogether": {
+      "title": "Jwe ansanm",
+      "subtitle": "Jwèt amizan pou de moun"
+    },
+    "loveNotes": {
+      "title": "Ti mesaj lanmou",
+      "subtitle": "Voye yon mesaj dous"
+    },
+    "quote": {
+      "title": "Pawòl jodi a",
+      "subtitle": "Yon ti refleksyon pou kè a"
+    },
+    "widgets": {
+      "title": "Widgets ou yo",
+      "subtitle": "Aksè rapid ak sa ki pi enpòtan"
+    }
+  },
+  "fallbacks": {
+    "sparkQuestion": "Ki yon bagay patnè ou te fè semèn sa a ki te fè ou souri?"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Creando tu espacio",
+  "subtitle": "Un momento",
+  "phase1": "Hola",
+  "phase1Tail": "danos un momento",
+  "phase2": "Configurando",
+  "phase2Tail": "tu identidad",
+  "phase3": "Ajustando para",
+  "phase3Fallback": "Leyendo tu historia de amor…",
+  "phase4": "Aplicando",
+  "phase4Fallback": "Pintando tu paleta…",
+  "phase5": "Idioma",
+  "phase5En": "Configurando el español",
+  "phase6": "Tejiendo tu espacio compartido…",
+  "phase7": "Casi listo…",
+  "phase8": "tu chispa está lista",
+  "mixLabel": "Tu mezcla de chispas",
+  "done": "Listo ✦",
+  "preparing": "Preparando…"
+}

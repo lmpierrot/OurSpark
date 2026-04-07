@@ -1,0 +1,19 @@
+{
+  "partner.title": "Konekte ak patnè ou",
+  "partner.subtitle": "Pataje kòd ou oswa antre pa yo",
+  "partner.shareTab": "Pataje kòd mwen",
+  "partner.joinTab": "Mwen gen yon kòd",
+  "partner.inviteCodeLabel": "Kòd envitasyon ou",
+  "partner.codeExpiry": "Kòd sa a ekspire nan 48 èdtan",
+  "partner.sendToPartner": "Voye bay patnè mwen",
+  "partner.inviteLater": "M ap envite yo pita",
+  "partner.continueCta": "Ale nan espas mwen",
+  "partner.partnerCodeLabel": "Kòd patnè a",
+  "partner.partnerCodePlaceholder": "SPARK-XXXXXX",
+  "partner.joinCta": "Kontinye",
+  "partner.copyCode": "Kopye kòd",
+  "partner.copied": "Kopye !",
+  "partner.shareMessageTitle": "Rantre avèm sou OurSparks",
+  "partner.shareMessageBody": "Itilize kòd mwen pou konekte:",
+  "partner.joinHint": "Antre kòd patnè ou pataje avèk ou pou konekte espas nou yo."
+}

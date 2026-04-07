@@ -1,0 +1,33 @@
+{
+  "header": {
+    "title": "Más",
+    "subtitle": "Explora más formas de mejorar tu relación."
+  },
+  "featured": {
+    "title": "Haz la app tuya",
+    "description": "Personaliza tu experiencia con recuerdos y metas."
+  },
+  "sections": {
+    "relationshipTools": "Herramientas",
+    "appSettings": "Configuración"
+  },
+  "relationshipTools": {
+    "profile": { "title": "Perfil", "subtitle": "Tu identidad en pareja" },
+    "goals": { "title": "Metas", "subtitle": "Sigan su progreso" },
+    "memory": { "title": "Recuerdos", "subtitle": "Momentos importantes" },
+    "moodTracker": { "title": "Estado de ánimo", "subtitle": "Cómo se sienten" },
+    "loveLanguage": { "title": "Lenguaje del amor", "subtitle": "Cómo aman" },
+    "countdown": { "title": "Cuenta regresiva", "subtitle": "Fechas importantes" },
+    "bucketList": { "title": "Lista de sueños", "subtitle": "Cosas por hacer" },
+    "challenges": { "title": "Desafíos", "subtitle": "Retos divertidos" },
+    "gratitudeJournal": { "title": "Diario de gratitud", "subtitle": "Momentos positivos" },
+    "datePlanner": { "title": "Planificador", "subtitle": "Organiza citas" }
+  },
+  "appSettings": {
+    "notifications": { "title": "Notificaciones", "subtitle": "Gestiona alertas" },
+    "premium": { "title": "Premium", "subtitle": "Más funciones" },
+    "language": { "title": "Idioma", "subtitle": "Elige tu idioma" },
+    "theme": { "title": "Tema", "subtitle": "Personaliza el estilo" },
+    "settings": { "title": "Configuración", "subtitle": "Cuenta y privacidad" }
+  }
+}

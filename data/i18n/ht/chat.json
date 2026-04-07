@@ -1,0 +1,31 @@
+{
+  "header": {
+    "title": "Chat",
+    "partnerStatus": "{partnerName} • sou entènèt kounye a"
+  },
+  "actions": {
+    "notifications": "Notifikasyon",
+    "callPartner": "Rele patnè ou",
+    "openActionsMenu": "Louvri meni aksyon yo",
+    "closeActionsMenu": "Fèmen meni aksyon yo",
+    "sendMessage": "Voye mesaj"
+  },
+  "loveNote": {
+    "label": "Ti mesaj lanmou",
+    "description": "Voye yon bagay dous, sansib, epi inatandi.",
+    "cta": "Voye"
+  },
+  "privacy": {
+    "note": "Espas chat nou pataje a prive epi fèt sèlman pou nou de."
+  },
+  "messages": {
+    "today": "Jodi a",
+    "placeholder": "Voye yon mesaj..."
+  },
+  "menu": {
+    "loveNote": "Ti mesaj lanmou",
+    "voiceMessage": "Mesaj vokal",
+    "image": "Imaj",
+    "datePlan": "Plan randevou"
+  }
+}

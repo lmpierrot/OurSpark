@@ -1,0 +1,59 @@
+{
+  "header": {
+    "title": "Preguntar",
+    "subtitle": "Explora preguntas y conversaciones más profundas juntos."
+  },
+  "tabs": {
+    "all": "Todo",
+    "yourTurn": "Tu turno",
+    "answered": "Respondido",
+    "completed": "Completado"
+  },
+  "daily": {
+    "label": "Conversación diaria",
+    "defaultQuestion": "¿Qué es algo que deberíamos mejorar juntos este mes?",
+    "cta": "Responder"
+  },
+  "categories": {
+    "title": "Categorías",
+    "subtitle": "Elige un estilo y empieza a conversar.",
+    "items": {
+      "fun": {
+        "title": "Divertido",
+        "description": "Preguntas para hacerlos sonreír."
+      },
+      "deep": {
+        "title": "Profundo",
+        "description": "Preguntas significativas para una conexión real."
+      },
+      "romantic": {
+        "title": "Romántico",
+        "description": "Conversaciones sobre amor y cercanía."
+      },
+      "spicy": {
+        "title": "Picante",
+        "description": "Conversaciones coquetas e íntimas."
+      },
+      "future": {
+        "title": "Futuro",
+        "description": "Sueños, planes y lo que viene."
+      },
+      "movingIn": {
+        "title": "Vivir juntos",
+        "description": "Rutinas y espacio compartido."
+      }
+    }
+  },
+  "folders": {
+    "title": "Carpetas",
+    "subtitle": "Explora temas y paquetes de conversación.",
+    "progressComplete": "{percent}% completado"
+  },
+  "explore": {
+    "title": "Explorar más",
+    "subtitle": "Descubre temas para cada etapa de tu relación.",
+    "ctaLabel": "Cambiar",
+    "ctaTitle": "Prueba un juego en pareja",
+    "ctaButton": "Ir a jugar"
+  }
+}

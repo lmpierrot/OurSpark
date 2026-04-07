@@ -1,0 +1,17 @@
+{
+  "buttons": {
+    "continue": "Continuar",
+    "back": "Atrás",
+    "save": "Guardar",
+    "cancel": "Cancelar"
+  },
+  "nav": {
+    "settings": "Configuración",
+    "profile": "Perfil",
+    "theme": "Tema",
+    "language": "Idioma"
+  },
+  "app": {
+    "name": "OurSparks"
+  }
+}

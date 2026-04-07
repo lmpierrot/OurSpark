@@ -1,0 +1,61 @@
+{
+  "header": {
+    "title": "Jouer",
+    "subtitle": "Jeux, quiz et façons amusantes de se connecter."
+  },
+  "featured": {
+    "label": "Jeu du moment",
+    "title": "Défi de compatibilité",
+    "description": "Répondez ensemble et comparez vos réponses.",
+    "cta": "Jouer"
+  },
+  "compatibility": {
+    "title": "Compatibilité",
+    "subtitle": "Voyez où vous êtes alignés ou différents.",
+    "matchLabel": "Match",
+    "insightLabel": "Analyse",
+    "matchText": "{percent}% compatibilité",
+    "insightText": "Vous êtes alignés sur la connexion émotionnelle",
+    "insightSub": "basé sur vos réponses"
+  },
+  "categories": {
+    "title": "Catégories",
+    "subtitle": "Choisissez et commencez.",
+    "items": {
+      "wouldYouRather": {
+        "title": "Tu préfères",
+        "description": "Choisissez entre deux options."
+      },
+      "compatibilityQuiz": {
+        "title": "Quiz de compatibilité",
+        "description": "Comparez vos réponses."
+      },
+      "loveLanguage": {
+        "title": "Langage de l’amour",
+        "description": "Découvrez comment vous vous sentez aimés."
+      },
+      "truthOrDare": {
+        "title": "Action ou vérité",
+        "description": "Fun et moments audacieux."
+      },
+      "neverHaveIEver": {
+        "title": "Je n’ai jamais",
+        "description": "Questions révélatrices."
+      },
+      "mostLikelyTo": {
+        "title": "Qui est le plus susceptible",
+        "description": "Comparez vos réponses."
+      }
+    }
+  },
+  "browse": {
+    "title": "Plus de jeux",
+    "subtitle": "Amusez-vous et apprenez l’un sur l’autre."
+  },
+  "explore": {
+    "label": "Envie de plus ?",
+    "title": "Explorez la section Ask",
+    "subtitle": "Passez des jeux aux conversations profondes.",
+    "cta": "Aller à Ask"
+  }
+}
