@@ -2,6 +2,7 @@
 
 import {
   createContext,
+  useMemo,
   useContext,
   useState,
   useEffect,
@@ -27,16 +28,18 @@ const ThemeContext = createContext<ThemeContextValue | null>(null);
 const STORAGE_KEY = "oursparks-theme";
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [themeId, setThemeIdState] = useState(() => {
-    if (typeof window === "undefined") {
-      return DEFAULT_THEME_ID;
-    }
+  // Default theme for SSR
+  const [themeId, setThemeIdState] = useState<string>(DEFAULT_THEME_ID);
+  const [isLoaded, setIsLoaded] = useState(false); // ensures client-only loading
+
+  // Load saved theme from localStorage on the client
+  useEffect(() => {
     const saved = localStorage.getItem(STORAGE_KEY);
     if (saved && getThemeById(saved).id === saved) {
-      return saved;
+      setThemeIdState(saved);
     }
-    return DEFAULT_THEME_ID;
-  });
+    setIsLoaded(true); // mark theme as loaded
+  }, []);
 
   const setThemeId = useCallback((id: string) => {
     setThemeIdState(id);
@@ -45,7 +48,10 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     }
   }, []);
 
-  const theme = getThemeById(themeId);
+  const theme = useMemo(() => getThemeById(themeId), [themeId]);
+
+  // Optional: prevent render until client-side is ready
+  if (!isLoaded) return null;
 
   return (
     <ThemeContext.Provider
@@ -66,12 +72,11 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   );
 }
 
-export function useTheme(): ThemeContextValue {
-  const ctx = useContext(ThemeContext);
-  if (!ctx) {
-    throw new Error("useTheme must be used within <ThemeProvider>");
+// Hook for easier usage in components
+export function useTheme() {
+  const context = useContext(ThemeContext);
+  if (!context) {
+    throw new Error("useTheme must be used within a ThemeProvider");
   }
-  return ctx;
+  return context;
 }
-export type { SparkTheme };
-
