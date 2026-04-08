@@ -44,8 +44,8 @@ export function BottomNav() {
           className="flex items-center justify-between rounded-[28px] px-2 py-2"
           style={{
             border: `1px solid ${theme.navBorder}`,
-            background: theme.navInnerBg || "rgba(255,255,255,0.03)",
-            boxShadow: theme.navShadow || "0 -10px 30px rgba(0,0,0,0.25)",
+            background: theme.navBg || "rgba(255,255,255,0.03)",
+boxShadow: "0 -10px 30px rgba(0,0,0,0.25)",
           }}
         >
           {NAV_ITEMS.map(({ label, href, icon: Icon }) => {
@@ -59,8 +59,8 @@ export function BottomNav() {
                   className="mx-auto flex w-fit flex-col items-center gap-1 rounded-2xl px-4 py-2 transition-all duration-200"
                   style={{
                     color: isActive ? theme.navActive : theme.navInactive,
-                    background: isActive ? theme.navActiveBg || "rgba(255,255,255,0.06)" : "transparent",
-                    boxShadow: isActive ? theme.navActiveShadow || "0 0 18px rgba(255,255,255,0.08)" : "none",
+                    background: isActive ? "rgba(255,255,255,0.06)" : "transparent",
+                    boxShadow: isActive ? "0 0 18px rgba(255,255,255,0.08)" : "none",
                   }}
                 >
                   <Icon

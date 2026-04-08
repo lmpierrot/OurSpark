@@ -36,7 +36,7 @@ export function GradientCard({
       }}
       onMouseEnter={(e) => {
         if (!onClick) return;
-        e.currentTarget.style.background = theme.cardHoverBg ?? theme.cardBg;
+        e.currentTarget.style.background = theme.cardBg;
       }}
       onMouseLeave={(e) => {
         if (!onClick) return;

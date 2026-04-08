@@ -11,6 +11,11 @@ import {
 import { SparkTheme, DEFAULT_THEME_ID, getThemeById, THEMES } from "@/lib/themes";
 
 interface ThemeContextValue {
+  textPrimary: string;
+  textMuted: string;
+  accent: string;
+  bgBase: string;
+  cardBorder: string;
   theme: SparkTheme;
   themeId: string;
   setThemeId: (id: string) => void;
@@ -22,35 +27,39 @@ const ThemeContext = createContext<ThemeContextValue | null>(null);
 const STORAGE_KEY = "oursparks-theme";
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [themeId, setThemeIdState] = useState(DEFAULT_THEME_ID);
-  const [mounted, setMounted] = useState(false);
-
-  // Load saved theme on mount
-  useEffect(() => {
+  const [themeId, setThemeIdState] = useState(() => {
+    if (typeof window === "undefined") {
+      return DEFAULT_THEME_ID;
+    }
     const saved = localStorage.getItem(STORAGE_KEY);
     if (saved && getThemeById(saved).id === saved) {
-      setThemeIdState(saved);
+      return saved;
     }
-    setMounted(true);
-  }, []);
+    return DEFAULT_THEME_ID;
+  });
 
   const setThemeId = useCallback((id: string) => {
     setThemeIdState(id);
-    localStorage.setItem(STORAGE_KEY, id);
+    if (typeof window !== "undefined") {
+      localStorage.setItem(STORAGE_KEY, id);
+    }
   }, []);
 
   const theme = getThemeById(themeId);
 
-  // Prevent flash of wrong theme
-  if (!mounted) {
-    return (
-      <div style={{ background: "#0c0a10", minHeight: "100dvh" }} />
-    );
-  }
-
   return (
     <ThemeContext.Provider
-      value={{ theme, themeId, setThemeId, allThemes: THEMES }}
+      value={{
+        theme,
+        themeId,
+        setThemeId,
+        allThemes: THEMES,
+        textPrimary: theme.textPrimary,
+        textMuted: theme.textMuted,
+        accent: theme.accent,
+        bgBase: theme.bgBase,
+        cardBorder: theme.cardBorder,
+      }}
     >
       {children}
     </ThemeContext.Provider>
@@ -64,3 +73,5 @@ export function useTheme(): ThemeContextValue {
   }
   return ctx;
 }
+export type { SparkTheme };
+

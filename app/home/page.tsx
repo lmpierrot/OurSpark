@@ -99,11 +99,14 @@ export default function HomePage() {
             onClick={() => router.push("/more")}
           >
             <Bell size={18} />
+            {/* ── Notification dot — ring-2 is a Tailwind class, not a CSS property
+                ringColor cannot go inside style={{}} — it is not a valid CSS property.
+                Use outline or box-shadow for the ring effect instead. ── */}
             <span
-              className="absolute -right-0.5 -top-0.5 h-2.5 w-2.5 rounded-full ring-2"
+              className="absolute -right-0.5 -top-0.5 h-2.5 w-2.5 rounded-full"
               style={{
                 background: theme.accent,
-                ringColor: theme.bgBase,
+                boxShadow: `0 0 0 2px ${theme.bgBase}`,
               }}
             />
           </button>
@@ -261,10 +264,7 @@ export default function HomePage() {
                 color={theme.avatarRingA}
                 bgBase={theme.bgBase}
               />
-              <p
-                className="mt-2 text-xs"
-                style={{ color: theme.textMuted }}
-              >
+              <p className="mt-2 text-xs" style={{ color: theme.textMuted }}>
                 {signedInUserName}
               </p>
             </div>
@@ -276,10 +276,7 @@ export default function HomePage() {
                 color={theme.avatarRingB}
                 bgBase={theme.bgBase}
               />
-              <p
-                className="mt-2 text-xs"
-                style={{ color: theme.textMuted }}
-              >
+              <p className="mt-2 text-xs" style={{ color: theme.textMuted }}>
                 {partnerName}
               </p>
             </div>
@@ -466,18 +463,14 @@ export default function HomePage() {
               textMode
             />
             <WidgetTile
-              icon={
-                <MapPin style={{ color: theme.secondary }} size={18} />
-              }
+              icon={<MapPin style={{ color: theme.secondary }} size={18} />}
               label="Distance"
               value="168"
               sub="miles apart"
               theme={theme}
             />
             <WidgetTile
-              icon={
-                <Sparkles style={{ color: theme.accent }} size={18} />
-              }
+              icon={<Sparkles style={{ color: theme.accent }} size={18} />}
               label="Mood"
               value="Calm + Loved"
               sub="today's vibe"
@@ -504,31 +497,19 @@ export default function HomePage() {
               theme={theme}
             />
             <StatTile
-              icon={
-                <MessageCircle
-                  style={{ color: theme.secondary }}
-                  size={20}
-                />
-              }
+              icon={<MessageCircle style={{ color: theme.secondary }} size={20} />}
               value="0%"
               label="Questions Answered"
               theme={theme}
             />
             <StatTile
-              icon={
-                <Camera style={{ color: theme.accentMuted }} size={20} />
-              }
+              icon={<Camera style={{ color: theme.accentMuted }} size={20} />}
               value="0"
               label="Memories Created"
               theme={theme}
             />
             <StatTile
-              icon={
-                <Sparkles
-                  style={{ color: theme.secondaryMuted }}
-                  size={20}
-                />
-              }
+              icon={<Sparkles style={{ color: theme.secondaryMuted }} size={20} />}
               value="3"
               label="Active Sparks"
               theme={theme}
@@ -557,7 +538,7 @@ function AvatarCircle({
     <div className="group relative">
       <div className="pointer-events-none absolute inset-0 rounded-full bg-white/10 blur-xl opacity-0 transition duration-300 group-hover:opacity-100" />
       <div
-        className="relative flex h-20 w-20 items-center justify-center rounded-full text-2xl font-bold text-white shadow-[0_10px_30px_rgba(0,0,0,0.35)] transition duration-300 group-hover:-translate-y-1"
+        className="relative flex h-20 w-20 items-center justify-center rounded-full text-2xl font-bold text-white transition duration-300 group-hover:-translate-y-1"
         style={{
           background: `linear-gradient(135deg, ${color}, ${color}80)`,
           boxShadow: `0 10px 30px rgba(0,0,0,0.35), 0 0 0 2px rgba(255,255,255,0.10)`,
@@ -678,10 +659,7 @@ function StatTile({
     <GradientCard className="px-4 py-4 transition duration-300 hover:-translate-y-1">
       <div className="space-y-2">
         {icon}
-        <p
-          className="text-3xl font-bold"
-          style={{ color: theme.textPrimary }}
-        >
+        <p className="text-3xl font-bold" style={{ color: theme.textPrimary }}>
           {value}
         </p>
         <p className="text-sm" style={{ color: theme.textSecondary }}>

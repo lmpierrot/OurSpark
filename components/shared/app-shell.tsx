@@ -15,7 +15,8 @@ export function AppShell({ children, hideNav = false }: AppShellProps) {
   return (
     <div
       className="relative min-h-[100dvh]"
-      style={{ background: theme.bgBase, color: theme.textBase || "#fff" }}
+      style={{ background: theme.bgBase, color: theme.textPrimary || "#fff" }}
+
     >
       <div
         aria-hidden

@@ -23,6 +23,8 @@ type RelationshipStage =
   | "long-distance"
   | "other";
 
+type Theme = ReturnType<typeof useTheme>["theme"];
+
 function getZodiacSign(dateString: string) {
   if (!dateString) return "";
   const date = new Date(dateString);
@@ -155,6 +157,7 @@ export default function CoupleProfilePage() {
                   borderColor: theme.cardBorder,
                   color: theme.textPrimary,
                 }}
+                aria-label="Relationship Stage"
               >
                 <option value="getting-to-know" style={{ color: "#111" }}>
                   Getting to know each other
@@ -266,7 +269,7 @@ function SettingsBlock({
   title: string;
   subtitle: string;
   children: React.ReactNode;
-  theme: any;
+  theme: Theme;
 }) {
   return (
     <GradientCard className="px-4 py-4">
@@ -290,7 +293,7 @@ function FieldLabel({
   theme,
 }: {
   children: React.ReactNode;
-  theme: any;
+  theme: Theme;
 }) {
   return (
     <p className="mb-2 text-xs font-medium" style={{ color: theme.textMuted }}>
@@ -314,7 +317,7 @@ function TextField({
   placeholder?: string;
   type?: string;
   icon?: React.ReactNode;
-  theme: any;
+  theme: Theme;
 }) {
   return (
     <div>
@@ -357,7 +360,7 @@ function ToggleRow({
   subtitle: string;
   checked: boolean;
   onChange: (value: boolean) => void;
-  theme: any;
+  theme: Theme;
 }) {
   return (
     <div
@@ -384,6 +387,7 @@ function ToggleRow({
           background: checked ? theme.accent : "rgba(255,255,255,0.10)",
         }}
         aria-pressed={checked}
+        title={label}
       >
         <span
           className="absolute top-1 h-5 w-5 rounded-full bg-white transition"
@@ -405,7 +409,7 @@ function InfoMiniCard({
   title: string;
   value: string;
   icon: React.ReactNode;
-  theme: any;
+  theme: Theme;
 }) {
   return (
     <div
@@ -426,7 +430,7 @@ function InfoMiniCard({
   );
 }
 
-function SmallTag({ text, theme }: { text: string; theme: any }) {
+function SmallTag({ text, theme }: { text: string; theme: Theme }) {
   return (
     <span
       className="rounded-full px-2.5 py-1 text-[10px] uppercase tracking-wide"

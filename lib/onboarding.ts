@@ -12,6 +12,10 @@ export type OnboardingData = {
   language?: "en" | "fr" | "es" | "ht";
   introCompleted?: boolean;
   firstName?: string;
+  birthday?: string;
+  avatarId?: string;
+  profilePhoto?: string;
+  themeId?: string;
   relationshipStage?: RelationshipStage;
   partnerCode?: string;
 };
@@ -49,4 +53,3 @@ export function generatePartnerCode() {
   }
   return code;
 }
-

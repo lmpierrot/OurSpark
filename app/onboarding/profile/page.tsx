@@ -621,6 +621,9 @@ export default function ProfilePage() {
               type="date"
               value={birthday}
               onChange={(e) => setBirthday(e.target.value)}
+              title={getText("onboarding", "profile.birthdayLabel", "Birth date")}
+              placeholder="MM/DD/YYYY"
+              aria-label={getText("onboarding", "profile.birthdayLabel", "Birth date")}
               className="w-full h-14 rounded-2xl px-5 text-base focus:outline-none transition-all [color-scheme:dark]"
               style={{
                 background: theme.cardBg,

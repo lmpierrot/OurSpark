@@ -18,6 +18,7 @@ import {
   Trash2,
   ChevronRight,
 } from "lucide-react";
+import styles from "./privacy-account.module.css";
 
 export default function PrivacyAccountPage() {
   const { theme } = useTheme();
@@ -36,17 +37,17 @@ export default function PrivacyAccountPage() {
       <div className="space-y-6">
         <Link
           href="/more/settings"
-          className="inline-flex items-center gap-1 text-sm"
+          className={`inline-flex items-center gap-1 text-sm ${styles.linkText}`}
           style={{ color: theme.textMuted }}
         >
           <ArrowLeft size={16} /> Settings
         </Link>
 
         <section>
-          <h1 className="text-xl font-bold" style={{ color: theme.textPrimary }}>
+          <h1 className={`text-xl font-bold ${styles.heading}`} style={{ color: theme.textPrimary }}>
             Privacy & Account
           </h1>
-          <p className="mt-1 text-sm" style={{ color: theme.textMuted }}>
+          <p className={`mt-1 text-sm ${styles.description}`} style={{ color: theme.textMuted }}>
             Control privacy, content, reminders, widgets, and account access.
           </p>
         </section>
@@ -188,7 +189,7 @@ function SettingsBlock({
   title: string;
   subtitle: string;
   children: React.ReactNode;
-  theme: any;
+  theme: ReturnType<typeof useTheme>["theme"];
 }) {
   return (
     <GradientCard className="px-4 py-4">
@@ -220,7 +221,7 @@ function ToggleRow({
   subtitle: string;
   checked: boolean;
   onChange: (value: boolean) => void;
-  theme: any;
+  theme: ReturnType<typeof useTheme>["theme"];
 }) {
   return (
     <div
@@ -252,11 +253,12 @@ function ToggleRow({
       <button
         type="button"
         onClick={() => onChange(!checked)}
-        className="relative h-7 w-12 rounded-full transition"
+        className={`${styles.toggleButton} relative h-7 w-12 rounded-full transition`}
         style={{
           background: checked ? theme.accent : "rgba(255,255,255,0.10)",
         }}
         aria-pressed={checked}
+        aria-label={`Toggle ${label}`}
       >
         <span
           className="absolute top-1 h-5 w-5 rounded-full bg-white transition"
@@ -280,7 +282,7 @@ function ActionRow({
   label: string;
   subtitle: string;
   danger?: boolean;
-  theme: any;
+  theme: ReturnType<typeof useTheme>["theme"];
 }) {
   return (
     <button
@@ -290,6 +292,7 @@ function ActionRow({
         borderColor: theme.cardBorder,
         background: "rgba(255,255,255,0.03)",
       }}
+      aria-label={label}
     >
       <div className="flex items-center gap-3">
         <div

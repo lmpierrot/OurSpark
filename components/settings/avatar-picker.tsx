@@ -15,21 +15,17 @@ interface AvatarSelection {
 export function AvatarPicker() {
   const { theme } = useTheme();
   const fileRef = useRef<HTMLInputElement>(null);
-  const [selected, setSelected] = useState<AvatarSelection>({
-    type: "animal",
-    value: "fox",
-  });
-
-  useEffect(() => {
+  const [selected, setSelected] = useState<AvatarSelection>(() => {
     const saved = localStorage.getItem(STORAGE_KEY);
     if (saved) {
       try {
-        setSelected(JSON.parse(saved));
+        return JSON.parse(saved);
       } catch {
         /* ignore */
       }
     }
-  }, []);
+    return { type: "animal", value: "fox" };
+  });
 
   function save(sel: AvatarSelection) {
     setSelected(sel);
@@ -94,6 +90,7 @@ export function AvatarPicker() {
           accept="image/*"
           className="hidden"
           onChange={handlePhoto}
+          title="Upload a photo for your avatar"
         />
 
         {/* Animal avatars */}

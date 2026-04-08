@@ -248,6 +248,31 @@ function getCategoryIcon(category: GoalCategory) {
   }
 }
 
+function CategoryIcon({ category, size, color }: { category: GoalCategory; size: number; color: string }) {
+  switch (category) {
+    case "communication":
+      return <MessageCircleHeart size={size} style={{ color }} />;
+    case "finance":
+      return <Wallet size={size} style={{ color }} />;
+    case "wedding":
+      return <CalendarHeart size={size} style={{ color }} />;
+    case "travel":
+      return <Plane size={size} style={{ color }} />;
+    case "date":
+      return <Heart size={size} style={{ color }} />;
+    case "family":
+      return <Users size={size} style={{ color }} />;
+    case "home":
+      return <Home size={size} style={{ color }} />;
+    case "intimacy":
+      return <Heart size={size} style={{ color }} />;
+    case "future":
+      return <Target size={size} style={{ color }} />;
+    default:
+      return <Plus size={size} style={{ color }} />;
+  }
+}
+
 export default function GoalsPage() {
   const { theme } = useTheme();
 
@@ -713,17 +738,13 @@ export default function GoalsPage() {
                           category: e.target.value as GoalCategory,
                         }))
                       }
-                      className="mt-1 w-full rounded-2xl border bg-transparent px-4 py-3 text-sm outline-none"
-                      style={{
-                        borderColor: theme.cardBorder,
-                        color: theme.textPrimary,
-                      }}
+                      aria-label="Goal category"
+                      className="goal-select mt-1 w-full rounded-2xl border bg-transparent px-4 py-3 text-sm outline-none"
                     >
                       {CATEGORY_OPTIONS.map((option) => (
                         <option
                           key={option.value}
                           value={option.value}
-                          style={{ color: "#111" }}
                         >
                           {option.label}
                         </option>
@@ -741,19 +762,16 @@ export default function GoalsPage() {
                           priority: e.target.value as "low" | "medium" | "high",
                         }))
                       }
-                      className="mt-1 w-full rounded-2xl border bg-transparent px-4 py-3 text-sm outline-none"
-                      style={{
-                        borderColor: theme.cardBorder,
-                        color: theme.textPrimary,
-                      }}
+                      aria-label="Goal priority level"
+                      className="goal-select mt-1 w-full rounded-2xl border bg-transparent px-4 py-3 text-sm outline-none"
                     >
-                      <option value="low" style={{ color: "#111" }}>
+                      <option value="low">
                         Low
                       </option>
-                      <option value="medium" style={{ color: "#111" }}>
+                      <option value="medium">
                         Medium
                       </option>
-                      <option value="high" style={{ color: "#111" }}>
+                      <option value="high">
                         High
                       </option>
                     </select>
@@ -876,7 +894,9 @@ export default function GoalsPage() {
   );
 }
 
-function FieldLabel({ children, theme }: { children: React.ReactNode; theme: any }) {
+type Theme = ReturnType<typeof useTheme>["theme"];
+
+function FieldLabel({ children, theme }: { children: React.ReactNode; theme: Theme }) {
   return (
     <p className="text-xs font-medium" style={{ color: theme.textMuted }}>
       {children}
@@ -891,7 +911,7 @@ function MiniStatCard({
 }: {
   label: string;
   value: string;
-  theme: any;
+  theme: Theme;
 }) {
   return (
     <GradientCard className="px-3 py-4">
@@ -914,7 +934,7 @@ function MiniMenuButton({
 }: {
   label: string;
   onClick: () => void;
-  theme: any;
+  theme: Theme;
 }) {
   return (
     <button
@@ -940,12 +960,11 @@ function GoalCard({
   onProgress,
 }: {
   goal: Goal;
-  theme: any;
+  theme: Theme;
   onEdit: () => void;
   onDelete: () => void;
   onProgress: () => void;
 }) {
-  const Icon = getCategoryIcon(goal.category);
   const progressPercent = Math.min((goal.progress / goal.target) * 100, 100);
 
   return (
@@ -959,7 +978,7 @@ function GoalCard({
               color: theme.accent,
             }}
           >
-            <Icon size={18} />
+            <CategoryIcon category={goal.category} size={18} color={theme.accent} />
           </div>
 
           <div className="flex-1">
@@ -1047,7 +1066,7 @@ function GoalCard({
   );
 }
 
-function Tag({ label, theme }: { label: string; theme: any }) {
+function Tag({ label, theme }: { label: string; theme: Theme }) {
   return (
     <span
       className="rounded-full px-2.5 py-1 text-[10px] font-medium uppercase tracking-wide"
